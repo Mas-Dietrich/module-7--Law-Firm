@@ -1,0 +1,38 @@
+#headerWrapper {border-bottom: 1px solid #eee;}
+
+header {
+    grid-template-columns: 51px auto auto;
+    div#phone {
+        display: block;
+        justify-self: end;
+
+        a {
+            color: $secondaryColor;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.5rem;
+
+        }
+
+        a:hover {color: $primaryColor;}
+    }
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+div#hamburger, div#closex {display: none;}
+nav {
+    height: auto;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        li{border: none;}
+    }
+}
+
+/*structure stuff */
+div#headerWrapper {grid-row-start: 1;}
+div#navWrapper {grid-row-start: 2;}
+div#mainWrapper {grid-row-start: 3;}
+div#footerWrapper {grid-row-start: 4;}
