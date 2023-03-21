@@ -199,6 +199,32 @@ div.flexed img {
   height: 100px;
 }
 
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+div.buttons button {
+  background-color: #cc7a26;
+  border: none;
+  padding: 1rem 2vw;
+  width: 75%;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+div.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+div.info {
+  display: none;
+}
+
 .small-0 {
   flex-basis: 0%;
 }
@@ -252,7 +278,7 @@ div.flexed img {
 }
 
 div.column {
-  padding: 2vw;
+  padding: 1rem 2vw 0.5rem 2vw;
 }
 
 div.attention {
@@ -360,6 +386,52 @@ div.social a:hover {
   div#footerWrapper {
     grid-row-start: 4;
   }
+  /*Main Stuff */
+  div.flexed {
+    flex-wrap: nowrap;
+  }
+  div.buttons {
+    flex-wrap: nowrap;
+  }
+  .medium-0 {
+    flex-basis: 0%;
+  }
+  .medium-1 {
+    flex-basis: 8.3333333333%;
+  }
+  .medium-2 {
+    flex-basis: 16.6666666667%;
+  }
+  .medium-3 {
+    flex-basis: 25%;
+  }
+  .medium-4 {
+    flex-basis: 33.3333333333%;
+  }
+  .medium-5 {
+    flex-basis: 41.6666666667%;
+  }
+  .medium-6 {
+    flex-basis: 50%;
+  }
+  .medium-7 {
+    flex-basis: 58.3333333333%;
+  }
+  .medium-8 {
+    flex-basis: 66.6666666667%;
+  }
+  .medium-9 {
+    flex-basis: 75%;
+  }
+  .medium-10 {
+    flex-basis: 83.3333333333%;
+  }
+  .medium-11 {
+    flex-basis: 91.6666666667%;
+  }
+  .medium-12 {
+    flex-basis: 100%;
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
@@ -372,4 +444,53 @@ div.social a:hover {
     margin: 0.5rem 0;
   }
   /* NAVIGATION STUFF GOES HERE  */
+  /* Main Stuff Here */
+  div.flexed {
+    flex-wrap: nowrap;
+  }
+  div.info {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .large-0 {
+    flex-basis: 0%;
+  }
+  .large-1 {
+    flex-basis: 8.3333333333%;
+  }
+  .large-2 {
+    flex-basis: 16.6666666667%;
+  }
+  .large-3 {
+    flex-basis: 25%;
+  }
+  .large-4 {
+    flex-basis: 33.3333333333%;
+  }
+  .large-5 {
+    flex-basis: 41.6666666667%;
+  }
+  .large-6 {
+    flex-basis: 50%;
+  }
+  .large-7 {
+    flex-basis: 58.3333333333%;
+  }
+  .large-8 {
+    flex-basis: 66.6666666667%;
+  }
+  .large-9 {
+    flex-basis: 75%;
+  }
+  .large-10 {
+    flex-basis: 83.3333333333%;
+  }
+  .large-11 {
+    flex-basis: 91.6666666667%;
+  }
+  .large-12 {
+    flex-basis: 100%;
+  }
 }

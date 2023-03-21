@@ -11,3 +11,20 @@ nav ul li a {
 }
 
 /* NAVIGATION STUFF GOES HERE  */
+
+/* Main Stuff Here */
+div.flexed {
+    flex-wrap: nowrap;
+}
+
+div.info {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+@for $i from 0 through 12 {
+    $w:($i/12)*100%;
+    .large-#{$i}{flex-basis: $w;}
+}

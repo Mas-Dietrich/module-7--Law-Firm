@@ -71,13 +71,40 @@ div.flexed {
     img {width: 150px; height: 100px;}
 }
 
+div.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    button {
+        background-color: $primaryColor;
+        border: none;
+        padding: 1rem 2vw;
+        width: 75%;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+}
+
+div.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+div.info {
+    display: none;
+}
+
 
 @for $i from 0 through 12 {
     $w:($i/12)*100%;
     .small-#{$i}{flex-basis: $w;}
 }
 
-div.column { padding: $gutter;}
+div.column { padding: 1rem 2vw .5rem 2vw;}
 
 div.attention {
     background-color: lightblue;

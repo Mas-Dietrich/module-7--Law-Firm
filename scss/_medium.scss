@@ -36,3 +36,18 @@ div#headerWrapper {grid-row-start: 1;}
 div#navWrapper {grid-row-start: 2;}
 div#mainWrapper {grid-row-start: 3;}
 div#footerWrapper {grid-row-start: 4;}
+
+/*Main Stuff */
+div.flexed {
+    flex-wrap: nowrap;
+}
+
+div.buttons {
+    flex-wrap: nowrap;
+}
+
+
+@for $i from 0 through 12 {
+    $w:($i/12)*100%;
+    .medium-#{$i}{flex-basis: $w;}
+}
