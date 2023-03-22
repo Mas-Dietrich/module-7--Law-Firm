@@ -46,6 +46,9 @@ div.buttons {
     flex-wrap: nowrap;
 }
 
+div.card {
+    width: 100%;
+}
 
 @for $i from 0 through 12 {
     $w:($i/12)*100%;
