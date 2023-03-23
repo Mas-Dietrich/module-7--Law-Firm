@@ -134,7 +134,7 @@ header {
 header h1 {
   font-size: 1.6rem;
   font-weight: 300;
-  padding-left: 0.5rem;
+  padding-left: 1.5vw;
   color: #cc7a26;
 }
 
@@ -490,7 +490,7 @@ div.social a:hover {
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
-    max-width: 1240px;
+    max-width: 75rem;
     margin: auto;
   }
   nav ul li a {
