@@ -39,11 +39,11 @@ div#footerWrapper {grid-row-start: 4;}
 
 /*Main Stuff */
 div.flexed {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 div.buttons {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 div.card {
